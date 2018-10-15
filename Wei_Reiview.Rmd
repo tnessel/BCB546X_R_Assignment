@@ -1,0 +1,23 @@
+---
+title: "Wei_Review"
+author: "Jialu Wei"
+date: "October 15, 2018"
+output: html_document
+---
+
+1. Data inspection: well done
+2. Data processing:
+(files checking)
+the results show that you may forget to invert the Position type from character to numeric; there is still 'multiple' existing
+```{r}
+check1 <- read.csv("./maize_decreasing_1.csv",1)
+check1$Chromosome
+check1$Position
+check2 <- read.csv("./teosinte_increasing_7.csv",1)
+check2$Chromosome
+check2$Position
+```
+3. Visualization
+i) for the first question, SNP is defined as the ones with variation within group. Your plots actually shows the total number of SNPs with/without variation.
+ii) for the second question, the new created variables should be homo/hetero/missing data, but in your plot there is only homo/others, which could be improved. For the sample_ID based plot, we are asked to normalize the y-axis, which you may miss. 
+iii) plot for the last question is well done. 

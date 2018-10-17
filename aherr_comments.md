@@ -1,0 +1,1 @@
+Your code is very clean, short and to the point. The method you use does not use any long unnecessary code. The visualization of your data is also very good. The only issue I have with the graphs is in your titles and labels. It would be a nice visual touch if the group labels did not overlap. 
